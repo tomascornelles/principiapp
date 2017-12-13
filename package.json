@@ -1,0 +1,20 @@
+{
+  "name": "principiapp",
+  "version": "1.0.0",
+  "description": "App para resolver ecuaciones cinematicas",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "Tomas Cornelles",
+  "license": "ISC"
+}
