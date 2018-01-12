@@ -9,3 +9,7 @@ $.all = function (selector, context) {
     (context || document).querySelectorAll(selector)
   )
 }
+function hola () {
+  return 'Hola Tom'
+}
+exports = hola

@@ -1,5 +1,5 @@
 /*! main.js */
 
 import $ from './jqmini.js';
-
-$('#main').text('Desde JS')
+console.log($)
+// $('#main').text('Desde JS raro')
